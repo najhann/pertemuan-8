@@ -1,0 +1,14 @@
+def hitung_luas(panjang, lebar):
+    return panjang * lebar
+
+def hitung_keliling(panjang, lebar):
+    return 2 * (panjang + lebar)
+
+# Contoh penggunaan
+panjang = 15
+lebar = 6
+luas = hitung_luas(panjang, lebar)
+keliling = hitung_keliling(panjang, lebar)
+
+print(f"Luas: {luas}")
+print(f"Keliling: {keliling}")
