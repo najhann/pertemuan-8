@@ -1,0 +1,13 @@
+def luas(panjang,lebar):
+    return panjang*lebar
+
+def keliling(panjang,lebar):
+    return 2* (panjang*lebar)
+
+A = int(input("masukkan panjangnya :"))
+B = int(input("masukkan lebarnya :"))
+
+hasil_luas= luas(A,B)
+hasil_keliling= keliling(A,B)
+print("luas adalah", hasil_luas)
+print("keliling adalah" ,hasil_keliling)
